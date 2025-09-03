@@ -1,40 +1,45 @@
-﻿
-# College Bazaar
+﻿# KIET Mart
 
-This Project aims to connect University students to sell and buy their used items. Sellers get a convenient platform to list their items, and Buyers get books and other articles at low prices, along with a chat feature to clear any queries they may have with the product.
+KIET Mart is a campus-based marketplace designed for the students of **KIET Group of Institutions**.  
+It provides a convenient platform where students can **buy and sell** their used items — such as books, stationery, sports equipment, clothing, and more.  
+The application also features a **chat system** that allows buyers and sellers to connect directly.
+
+---
+
+## 🚀 Features & Tech Stack
+
+- **React.js**  
+  Frontend built as a **Single Page Application (SPA)** for smooth navigation and dynamic UI.
+
+- **MongoDB Atlas**  
+  Used as the database to store user registrations and item listings.
+
+- **Node.js + Express**  
+  Backend server for APIs, authentication, and application logic.
+
+- **Bcrypt.js**  
+  For secure password hashing before saving user credentials.
+
+- **Socket.io**  
+  Enables real-time chat between buyers and sellers.
+
+- **JWT Authentication**  
+  Provides secure login and authorization for users.
+
+---
+
+## 🖼️ Screenshots / Preview
 
 
 
-## Features and Tech Stack
+---
 
-- #### ReactJs
-Used this framework to build the frontend of the website as a SPA Single Page Application to procide somooth user experience.
+## 🛠️ Run Locally
 
-
-- #### Mongodb Atlas
-Used for maintaining database of students registering on the site as well as details of all the item listings.
-
-- #### Node Js and Express framework
-Used for building the backend server of the project.
-
-- #### Bcrypt Library
-Used in sync with Node Js to ensure that passwords are properly hashed before being placed into the Database
-
-- #### Socket.io
-Used to setup text Chat Application between Buyer and the seller.
-
-- #### JWT
-Used this Authenctication System to make sure the user is logged in before accessing any personal info on the site
-
-
-
-
-## Run Locally
-
-Clone the project
+Clone the project:
 
 ```bash
-  git clone https://github.com/yashjoshi-dotcom/College_Bazaar.git
+git clone https://github.com/slayying-pri/KIET_Mart.git
 ```
 
 Go to the project directory
@@ -74,18 +79,23 @@ Start the backend Server
 ```  
 Please make sure you have config.env file setup in the backend directory. The Format is demostrated in config.env.example file.
 
+---
+
 ## Demo Video
 
 
-https://user-images.githubusercontent.com/77540753/197020778-9bb78963-4498-43f7-9ddc-423d0c6dbbc9.mov
 
+---
 
 ## Authors
 This Project would not have been possible without the immense  help of following people.
-- [@Yuvraj](https://github.com/YUVRAJg37)
-- [@Tanush Chaudhary](https://github.com/Tanush15)
-- [@Yash Joshi](https://github.com/yashjoshi-dotcom)
+- [@Priyansu Vashisth](https://github.com/slayying-pri)
+- [@Omji Pathak](https://github.com/Omjipathak87)
+- [@Pranjal Mishra](https://github.com/Pranjalmishr1)
+- [@Mohd Wali](https://github.com/MdWAli1803)
 
+
+---
 
 ## Roadmap
 
