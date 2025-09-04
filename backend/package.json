@@ -11,7 +11,8 @@
   "build": "rimraf dist && tsc",
   "dev": "env-cmd -f config/dev.env nodemon index.ts",
   "ts-start": "env-cmd -f config/dev.env nodemon index.ts",
-  "ts.check": "tsc --noEmit"
+  "ts.check": "tsc --noEmit",
+  "github-tests": "echo 'No tests defined yet'"
 },
   "author": "",
   "license": "ISC",
