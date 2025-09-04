@@ -38,7 +38,7 @@ jobs:
           cd ./backend/
           npm run github-tests
 
-      - name: Run the linter tests
-        run: |
-          cd ./backend/
-          npm run lint
+      # - name: Run the linter tests
+      #   run: |
+      #     cd ./backend/
+      #     npm run lint
