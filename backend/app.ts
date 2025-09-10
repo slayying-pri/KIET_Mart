@@ -2,6 +2,7 @@
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
+import './config/setupFetch';
 
 // Initiating Connection to the MongoDB
 import './src/db/conn';
