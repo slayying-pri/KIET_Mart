@@ -21,7 +21,11 @@ import base_endpoint from './src/routes/base_endpoint';
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL, // reads from env
+  credentials: true
+}));
 app.use(cookieParser());
 
 // Setting Routes

@@ -27,7 +27,7 @@ const Signin = () => {
       }),
     });
 
-    const data = res.json();
+    const data = await res.json();
     if (res.status === 200 && data) {
       window.alert("Login Successful");
       navigate("/profile");

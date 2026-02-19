@@ -5,11 +5,12 @@ import kietLogo from "../../assets/kietLogo.png";
 import { useState, useEffect } from "react";
 // import Menu from "./Menu";
 import "flowbite";
-import { Navbar } from "flowbite-react/lib/esm/components/Navbar";
+// import { Navbar } from "flowbite-react";
 import { useNavigate } from "react-router-dom";
 
-import { Dropdown } from "flowbite-react/lib/esm/components/Dropdown";
-import { Avatar } from "flowbite-react/lib/esm/components/Avatar";
+// import { Dropdown } from "flowbite-react";
+// import { Avatar } from "flowbite-react";
+import { Navbar, Dropdown, NavbarBrand, Avatar, NavbarToggle, NavbarCollapse } from "flowbite-react";
 import { useAuth } from "../../Contexts/AuthContext";
 
 const Navabr = () => {
@@ -80,13 +81,13 @@ const Navabr = () => {
   return (
     <div className="dark ">
       <Navbar fluid={true} rounded={false}>
-        <div className=" sm:absolute">
-          <Navbar.Brand href="/">
+        {/* <div className=" sm:absolute"> */}
+          <NavbarBrand href="/">
             <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
               KIET Mart
             </span>
-          </Navbar.Brand>
-        </div>
+          </NavbarBrand>
+        {/* </div> */}
         <div className="flex md:order-2 ">
           
             <NavLink
@@ -99,10 +100,10 @@ const Navabr = () => {
                
           </NavLink>
           
-          <Navbar.Toggle />
+          <NavbarToggle />
         </div>
         {/* <div className="lg:m-auto"> */}
-        <Navbar.Collapse>
+        <NavbarCollapse>
           <NavLink
             to="/Home"
             active={true}
@@ -149,7 +150,7 @@ const Navabr = () => {
           </NavLink>}
          
           
-        </Navbar.Collapse>
+        </NavbarCollapse>
         {/* </div> */}
       </Navbar>
     </div>
